@@ -57,7 +57,7 @@ public class Main {
         System.out.println();
         System.out.println("task 4");
         for (int i = 0; i < numbers.length; i++) {
-            if (i % 2 == 0) {
+            if (numbers[i] % 2 == 1) {
                 numbers[i] = numbers[i] + 1;
             }
         }
